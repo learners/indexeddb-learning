@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <title>IndexedDB</title>
+  </head>
+  <body>
+    <div id="app">
+      <button onclick="write1()">写入数据</button>
+      <button onclick="read()">读取数据</button>
+      <button onclick="readAll()">读取所有数据</button>
+      <button onclick="getAll()">读取所有数据2</button>
+      <button onclick="update()">更新记录</button>
+      <button onclick="remove()">删除记录</button>
+      <button onclick="clear1()">删除所有记录</button>
+      <br>
+      <button onclick="count()">记录数</button>
+      <button onclick="useIndex()">使用索引查询</button>
+      <button onclick="getKeyRange()">指定指针查询</button>
+      <button onclick="">条件查询</button>
+      <br>
+      <button onclick="closeDatabase()">关闭数据库</button>
+      <button onclick="deleteDatabase()">删除数据库</button>
+
+      <hr>
+
+      <button onclick="addPerson()">写入数据</button>
+      <button onclick="select()">查询数据</button>
+      <button onclick="orderBy()">根据id降序排序</button>
+      <button onclick="aggregate()">统计：最小年龄</button>
+      <button onclick="groupBy()">分组统计</button>
+      <button onclick="distinct()">获取唯一结果集</button>
+      <button onclick="useCase()">使用case</button>
+      <br>
+      <button onclick="join()">join连接表</button>
+      <button onclick="joinBetweenThreeTables()">join连接多张表</button>
+      <button onclick="useStore()">从store中查询数据</button>
+      <br>
+      <button onclick="likeQuery()">like模糊查询</button>
+      <button onclick="inQuery()">in查询</button>
+      <button onclick="regexQuery()">regex正则查询</button>
+      <button onclick="orQuery()">使用or查询</button>
+      <button onclick="operatorQuery()">使用运算符查询</button>
+      <button onclick="unionQuery()">union联合查询</button>
+      <button onclick="intersectQuery()">intersect交集</button>
+      <br>
+      <button onclick="updateRow()">更新记录</button>
+      <button onclick="delPersonById()">根据条件删除记录</button>
+      <button onclick="clear2()">删除所有记录</button>
+      <button onclick="dropDb()">删除数据库</button>
+      <button onclick="getDbList()">返回数据库列表</button>
+      <button onclick="closeConnection()">关闭数据库连接</button>
+      <button onclick="openConnection()">打开数据库连接</button>
+      <br>
+      <button onclick="countPerson()">查询person表的总记录数</button>
+      <br>
+      <button onclick="setter()">setter方法</button>
+      <button onclick="getter()">getter方法</button>
+      <button onclick="advSQLExample1()">高级SQL示例1</button>
+      <button onclick="advSQLExample2()">高级SQL示例2</button>
+      <button onclick="importScripts()">importScripts</button>
+      <br>
+      <button onclick="transaction()">执行事务</button>
+      <br>
+      <button onclick="multiEntry()">multiEntry</button>
+      <button onclick="middleware()">中间件使用</button>
+      <button onclick="plugin()">插件使用</button>
+    </div>
+
+    <script src="./main.js"></script>
+
+    <script src="./jsstore/jsstore.js"></script>
+    <script src="./use-jsstore.js"></script>
+  </body>
+</html>
